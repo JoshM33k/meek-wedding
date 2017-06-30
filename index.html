@@ -225,16 +225,26 @@
                         <img src="img/joel.jpg" title="Joel Burnette" alt="Josh has been friends with Joel literally his entire life. Partners-in-crime through school, Josh and Joel shared a love of punk rock, video games, and general shenanigans. Today, Josh and Jessie love spending time with Joel, his wife Nicki, and their children. ">
                         <img src="img/tyler.jpg" title="Tyler Gaw" alt="Meeting at Ball State, Tyler and his wife Sam became two of Josh's best friends. Today, the couple are friends with both Josh and Jessie, and Tyler and Josh still get together every week for game night.">
                         <img src="img/ross.png" title="Ross Alexander" alt="Meeting at Hanover College in band, Ross and Josh bonded over music, video games, and sarcasm. Despite living geographically far apart, the two are still close friends that chat and play games on a weekly basis.">
+                        <img src="img/nate.jpg" title="Nate Johnson" alt="">
                     </div>
                 </p>
                 <br/>
                 <h2>Bride's Party</h2>
                 <p>
                     <div id="brideslider">
-                        <img src="img/zak2.jpg" title="Zak Zurwell" alt="">
-                        <img src="img/steph.jpg" title="Steph Zurwell" alt="">
-                        <img src="img/clint.jpg" title="Clint Maddy" alt="">
-                        <img src="img/kyle.jpg" title="Kyle Hostetler" alt="">
+                        <img src="img/zak3.jpg" title="Zak Zurwell" alt="Big brother and protector since day one and eventually a friend as well Zak is the laid back yin to the bride’s anxious yang. Zak is a ridiculous combination of athletic and intelligent.">
+                        <img src="img/steph.jpg" title="Steph Zurwell" alt="Stephanie is the best sister-in-law a girl who grew up with a brother could ask for. Steph is the perfect partner for pool days and girl’s day out.">
+                        <img src="img/clint.jpg" title="Clint Maddy" alt="From elementary school, through college at IU, and beyond Clint and Jessie have been best friends. Clint is the bride’s resident fashion and beauty consultant.">
+                        <img src="img/kyle.jpg" title="Kyle Hostetler" alt="Kyle (Hoss) Hostetler has been making Jessie laugh since high school. You will most likely see Hoss lighting up the dance floor, look for him during “Footloose”.">
+                        <img src="img/emily.jpg" title="Emiliy Pera" alt="Emily and the bride met in 2014 when they started working at WebMD and became fast friends. Even with Emily living across the country for much of the past 3 years she and Jessie have gotten to travel to Yellowstone and Arizona together.">
+                    </div>
+                </p>
+                <br/>
+                <h2>Flower Girl &amp; Ring Bearer</h2>
+                <p>
+                    <div id="kidslider">
+                        <img src="img/zoey.jpg" title="Zoey Zurwell" alt="Zoey Zurwell is the smart, kind, funny, fashionista niece of the bride. She makes everything a bit more fun and states she will be the best part of this wedding.">
+                        <img src="img/sammy.jpg" title="Sammy Zurwell" alt="The nephew of the bride, Sammy is full of adventure and energy. Sammy is the wildcard of wedding party… will he make it down the aisle? Join us in September to find out.">
                     </div>
                 </p>
             </div>
@@ -247,7 +257,9 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h1>Accommodations</h1>
-                    <p>Hotel information is coming soon!</p>
+                    <p>A block of rooms have been reserved at the Holiday Inn in Richmond, IN.</p>
+                    <p>Use the group code ZUR when calling to book.</p>
+                    <p>(765)488-1975</p>
                 </div>
                 <div id="map"></div>
             </div>
@@ -260,7 +272,7 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h1>Wedding Registry</h1>
-                    <p>registry information is coming soon!</p>
+                    <p>We are registered at Target and Bed Bath &amp; Beyond.</p>
                 </div>
             </div>
         </div>
@@ -316,6 +328,14 @@
         });
         brideSlider.addCaptions();
         brideSlider.start();
+
+        var kidSlider = new IdealImageSlider.Slider({
+            selector: '#kidslider',
+            height: 500, // Required but can be set by CSS
+            interval: 4000
+        });
+        kidSlider.addCaptions();
+        kidSlider.start();
     </script>
 
 </body>

@@ -48,7 +48,7 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(39.8342449, -84.8898413), // New York
+        center: new google.maps.LatLng(39.835300, -84.820923), // Holiday INN
 
         // Disables the default Google Maps UI components
         disableDefaultUI: false,
@@ -69,7 +69,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(39.8342449, -84.8898413);
+    var myLatLng = new google.maps.LatLng(39.835300, -84.820923);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map
